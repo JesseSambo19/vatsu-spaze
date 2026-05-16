@@ -13,7 +13,7 @@ const Portfolio = () => {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
           {PORTFOLIO_PROJECTS.map((project, index) => (
             <div
-              key={project.id}
+              key={index}
               className="group relative overflow-hidden rounded-3xl mx-4"
             >
               <img
