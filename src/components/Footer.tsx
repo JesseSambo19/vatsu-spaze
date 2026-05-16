@@ -7,7 +7,7 @@ import {
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <footer className="max-w-7xl mx-auto">
+    <footer className="max-w-7xl mx-auto px-2">
       <div className="flex flex-col md:flex-row justify-between items-center border-t-2 py-4">
         <div className="flex space-x-6 mb-2">
           <a
